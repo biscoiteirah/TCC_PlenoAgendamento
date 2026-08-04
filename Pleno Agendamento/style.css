@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+/* TOPO AZUL */
+
+.topo {
+  width: 100%;
+  height: 115px;
+  background-color: #2A74FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 27px;
+  padding-right: 85px;
+}
+
+
+.logo-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+
+.logo-texto {
+  color: white;
+  font-family: 'aboreto', cursive;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+/* BUSCA */
+
+.pesquisa {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 160px;
+}
+
+.linha {
+  width: 205px;
+  height: 1px;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: -55px;
+}
+
+.lupa {
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.lupa::after {
+  content: "";
+  width: 9px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  right: -7px;
+  bottom: -5px;
+  transform: rotate(45deg);
+}
+
+/* BARRA BRANCA */
+
+.barra-branca {
+  height: 34px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9px;
+  color: #333;
+  position: relative;
+}
+
+.barra-branca button {
+  position: absolute;
+  bottom: 8px;
+  right: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+  font-size: 10px;
+  padding: 1px 8px;
+}
+
+.busca{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    padding: 5px 10px;
+}
+
+.busca input::placeholder{
+    color: white;
+}
+
+.busca input{
+    border: none;
+    outline: none;
+    flex: 1;
+}
+
+.busca input{
+    background-color: #2A74FF;
+    color: white;
+}
+
+.instagram {
+  position: absolute;
+  right: 92px;
+  font-size: 24px;
+  color: black;
+}
+
+/* BANNER */
+
+.banner {
+  height: 500px;
+  background-image: url("psicoterapia.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.escuro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.35);
+}
+
+/* FAIXA AZUL TRANSPARENTE */
+
+.faixa-azul {
+  position: absolute;
+  top: 135px;
+  left: 35px;
+  width: calc(100% - 35px);
+  height: 118px;
+  background: rgba(42, 116, 255, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.faixa-azul h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin-left: 90px;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* LOGO GRANDE */
+
+.logo-grande {
+  width: 95px;
+  height: 95px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  right: 125px;
+}
+
+.logo-grande::before {
+  content: "✸";
+  position: absolute;
+  color: #2f73f4;
+  font-size: 72px;
+  top: 7px;
+  left: 12px;
+}
+
+.faixa{
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    right: 250px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.circulo-grande {
+  width: 34px;
+  height: 34px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 31px;
+  left: 31px;
+}
