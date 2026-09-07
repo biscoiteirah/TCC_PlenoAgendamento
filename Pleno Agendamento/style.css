@@ -217,3 +217,101 @@ body {
   top: 31px;
   left: 31px;
 }
+
+/* SEGUNDO BANNER — FAIXA ROSA */
+
+.banner-rosa {
+  background-image: url("neuronios.jpg");
+}
+
+.faixa-rosa {
+  position: absolute;
+  top: 135px;
+  left: 35px;
+  width: calc(100% - 35px);
+  height: 118px;
+  background: rgba(220, 100, 160, 0.5);
+  display: flex;
+  align-items: center;
+}
+
+.faixa-rosa h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 27px;
+  letter-spacing: 2px;
+  line-height: 40px;
+  margin-left: 90px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.logo-rosa {
+  right: 250px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+  background-color: #2A74FF;
+  color: white;
+  padding: 40px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.rodape-marca {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rodape-marca img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.rodape-marca strong {
+  font-family: 'Aboreto', cursive;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
+
+.rodape-coluna {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rodape-coluna h3 {
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 4px;
+  color: white;
+}
+
+.rodape-coluna a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+.rodape-coluna a:hover {
+  color: white;
+}
+
+.rodape-redes a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rodape-redes img {
+  width: 24px;
+  height: 24px;
+}
